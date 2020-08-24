@@ -6,10 +6,7 @@ mini js script for form validation. You can add new custom and use it very easy.
 
 this script help you validate data in frontend before submit data for backend.
 
-Demo
-```
-https://huyn03.github.io/jquery.validateMini/
-```
+Demo: https://huyn03.github.io/jquery.validateMini/
 
 ### Prerequisites
 
