@@ -41,10 +41,6 @@
 
 <form>
     <div class="form-group">
-        <label>Username</label>
-        <input validates="required|test:3,6" name="username" type="text" class="form-control" value="">
-    </div>
-    <div class="form-group">
         <label>Email</label>
         <input validates="required|email" name="email" type="email" class="form-control" value="">
     </div>
@@ -58,15 +54,6 @@
         <input validates="required|same:Password" name="password" type="password" class="form-control" value="">
     </div>
 
-    <div class="form-group">
-        <label>Select</label>
-        <select validates="required|min:10" class="form-control">
-            <option value="">------Chon-----</option>
-            <option value="dsdf">Min 10</option>
-            <option value="dsdfsdfsfsdfds">Ok</option>
-        </select>
-    </div>
-
     <input type="submit" name="" value="send" class="form-control">
 </form>
 
@@ -77,9 +64,6 @@
 	
 	$('form').validateMini({
 		validates: {
-			test: (params, value)=> {
-				return `Params of valid test: ${params[0]} and ${params[1]}`;
-			},
 			strong: (params, value)=>{
 				return /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])/.test(value) || "Yêu cầu chữ cái, số, in hoa và ký tự"
 			},

@@ -1,0 +1,29 @@
+{
+  "name": "@huyn03/jquery.validate-mini",
+  "version": "1.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "description": "mini js script for form validation. You can add new custom and use it very easy.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyn03/jquery.validateMini.git"
+  },
+  "keywords": [
+    "html",
+    "validation",
+    "validatemini",
+    "jquery",
+    "validate"
+  ],
+  "author": "drhuy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huyn03/jquery.validateMini/issues"
+  },
+  "homepage": "https://github.com/huyn03/jquery.validateMini#readme"
+}
