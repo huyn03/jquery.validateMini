@@ -74,4 +74,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## Acknowledgments
 
 * Thanks for used
-* It help for you: donate me 1$: https://paypal.me/huy03
+* It help for you: donate me $1: https://paypal.me/huy03
